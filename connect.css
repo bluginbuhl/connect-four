@@ -1,0 +1,55 @@
+.jumbotron {
+    text-align: center;
+    height: 175 !important;
+}
+
+.gameboard {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding: 80px;
+    background-color: #e9ecef;
+}
+
+.resetMessage {
+    padding-top: 20px;
+}
+
+.message {
+    height: 80px !important;
+    text-align: left;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    background-color: gray;
+}
+
+.names div {
+    vertical-align: middle;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 15px solid navy;
+    background-color: navy;
+    height: 100px;
+    width: 100px;
+    line-height: 0em;
+    font-size: 90px;
+    text-align: center;
+    overflow: hidden;
+}
+
+td button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0px;
+}
