@@ -1,18 +1,53 @@
 .jumbotron {
+    border-radius: 0px !important;
+    margin-top: 40px;
     text-align: center;
+    padding: 0px !important;
+    padding-bottom: 15px !important;
     height: 175 !important;
+}
+
+.buttons {
+    padding-top: 20px;
+}
+
+.btn {
+    width: 100px !important;
+}
+
+.btn-primary {
+    border-color: navy;
+    background-color: navy !important;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.btn-primary:hover {
+    background-color: #0000ff !important;
+    box-shadow: none;
+}
+
+.btn-outline-primary {
+    border-color: navy;
+    color: navy;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.btn-outline-primary:hover {
+    background-color: navy;
+    border-color: navy;
+    box-shadow: none;
 }
 
 .gameboard {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
-    padding: 80px;
+    margin-bottom: 40px;
+    padding: 25px;
     background-color: #e9ecef;
 }
 
 .resetMessage {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .message {
@@ -22,7 +57,10 @@
     font-size: 24px;
     font-weight: bolder;
     margin-bottom: 30px;
-    background-color: gray;
+    color: white;
+    background-color: rgb(70, 76, 79);
+
+    box-shadow: 3px 3px 3px gray;
 }
 
 .names div {
@@ -34,11 +72,15 @@ table {
     margin-right: auto;
 }
 
+.gameboard table {
+    box-shadow: 3px 3px 3px gray;
+}
+
 td {
     border: 15px solid navy;
     background-color: navy;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     line-height: 0em;
     font-size: 90px;
     text-align: center;
@@ -46,10 +88,18 @@ td {
 }
 
 td button {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     border: 1px solid black;
     background-color: white;
     padding: 0px;
+}
+
+.base {
+    background-color: navy;
+}
+
+.base td {
+    height: 20px !important;
 }

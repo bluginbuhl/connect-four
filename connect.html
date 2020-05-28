@@ -18,21 +18,21 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Connect 4</h1>
-      <br>
-      <span>
-        <button class="btn btn-primary btn-lg" id="startGame" type="button">Start</button>
-        <button class="btn btn-outline-primary btn-lg" id="resetGame" type="button">Reset</button>
-      </span>
+      <div class="buttons">
+        <span>
+          <button class="btn btn-primary btn-lg" id="startGame" type="button">Start</button>
+          <button class="btn btn-outline-primary btn-lg" id="resetGame" type="button">Reset</button>
+        </span>
+      </div>
       <div class="resetMessage">
-        <small id="resetMessage">Click start to enter player names!</small>
+        <small id="resetMessage">Click start to begin the game!</small>
       </div>
     </div>
     
     <div class="message container">
       <div class="names">
-        <div id="playerOneTag"><span>Player 1: </span><span id="playerOneName"></span></div>
-        <div id="playerTwoTag"><span>Player 2: </span><span id="playerTwoName"></span></div>
+        <div id="playerOneTag"><span id="turnIconOne"></span><span>Player 1: </span><span id="playerOneName"></span></div>
+        <div id="playerTwoTag"><span id="turnIconTwo"></span><span>Player 2: </span><span id="playerTwoName"></span></div>
       </div>
     </div>
     <div class="gameboard container">
@@ -92,6 +92,11 @@
           <td><button type="button"></button></td>
         </tr>
       </table>
+      <!-- <div class="base">
+        <table>
+          <tr><td></td></tr>
+        </table>
+      </div> -->
     </div>
   </div>
 
